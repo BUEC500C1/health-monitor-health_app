@@ -26,13 +26,13 @@ Description:
 
 ## Storage:
 
-Author: JP
+Author: Zhenfei Yu
 
-Description: 
+Description: a database which accepts data from processor and output to AI prediction module
 
--- Input
+-- Input: data handled by processor
 
--- Output
+-- Output: database for use in AI training
 
 ## Vitals:
 
