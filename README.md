@@ -15,13 +15,13 @@ Description:
 
 ## Display:
 
-Author: Lijunwei
+Author:Jingyi Li
 
 Description: 
 
 -- Input: setting, data inputs (updated sec by sec)
 
--- Outpu: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
+-- Output: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
 
 
 ## Storage:
