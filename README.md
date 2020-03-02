@@ -68,8 +68,11 @@ Description:
 
 Author: Dingjun Bian
 
-Description: recieve the real time data of multiple sensors and evalute the data
+Description: Recieve the real time data of multiple sensors and process the data.Send the processed data to database for
 
--- Input:data of pulse blood pressure,blood oxygen 
+storage. Check whether it is within normal range, send signal to alert if we detect something abnormal.
 
--- Output:transfer the processed data to database 
+
+-- Input:data of pulse ,blood pressure and blood oxygen.
+
+-- Output:transfer the processed data to database, send data to  alert
