@@ -15,24 +15,24 @@ Description:
 
 ## Display:
 
-Author:Jingyi Li
+Author: Lijunwei
 
 Description: 
 
 -- Input: setting, data inputs (updated sec by sec)
 
--- Output: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
+-- Outpu: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
 
 
 ## Storage:
 
-Author: JP
+Author: Zhenfei Yu
 
 Description: 
 
--- Input
+-- Input: data handled from processor
 
--- Output
+-- Output: database as input of AI training
 
 ## Vitals:
 
