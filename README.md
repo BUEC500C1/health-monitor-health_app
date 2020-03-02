@@ -4,15 +4,20 @@ This is repository to hold the Health Monitoring Unity Project
 
 The repository contains multiple modules developed independently. 
 
+
 ## Sensors:
 Author: Lijunwei
 
 Description: 
+  In our proect, we do not use real sensor to test our project. Therefore, simulation file will replace actual sensor as input. 
 
 -- Input
+    sensor_pulse.cvs
+    sensor_blood_pressure.cvs
+    sensor_blood_oxygen.cvs
 
 -- Output
-
+    
 ## Display:
 
 Author:Jingyi Li
