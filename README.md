@@ -15,24 +15,23 @@ Description:
 
 ## Display:
 
-Author: Lijunwei
+Author:Jingyi Li
 
-Description: 
+Description: This parts will collect all the information from several parts and show in the screen. When an Alert happened, it will show in the screen with a special notice.
 
 -- Input: setting, data inputs (updated sec by sec)
 
--- Outpu: graphs + numbers for blood pressure, heart rate, oxygen concentration in pyqt gUI
-
+-- Output: graphs and numbers for blood pressure, heart rate, blood Oxygen levels, and Alert.
 
 ## Storage:
 
-Author: Zhenfei Yu
+Author: JP
 
-Description: a database which accepts data from processor and output to AI prediction module
+Description: 
 
--- Input: data handled by processor
+-- Input
 
--- Output: database for use in AI training
+-- Output
 
 ## Vitals:
 
@@ -66,13 +65,10 @@ Description:
 
 ## Processor:
 
-Author: Dingjun Bian
+Author: Steven
 
-Description: Recieve the real time data of multiple sensors and process the data.Send the processed data to database for
+Description: 
 
-storage. Check whether it is within normal range, send signal to alert if we detect something abnormal.
+-- Input
 
-
--- Input:data of pulse ,blood pressure and blood oxygen.
-
--- Output:transfer the processed data to database, send data to  alert
+-- Output
