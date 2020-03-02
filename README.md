@@ -38,36 +38,6 @@ Description: a database which stores data from processor and output to AI predic
 
 -- Output: database for use in AI training
 
-## Vitals:
-
-Author: Danny
-
-Description: 
-
--- Input
-
--- Output
-
-## Processor:
-
-Author: Steven
-
-Description: 
-
--- Input
-
--- Output
-
-## Settings:
-
-Author: Jenny
-
-Description: 
-
--- Input
-
--- Output
-
 ## Processor:
 
 Author: Dingjun Bian
