@@ -5,7 +5,7 @@ This is repository to hold the Health Monitoring Unity Project
 The repository contains multiple modules developed independently. 
 
 ## Sensors:
-Author: Brian
+Author: Lijunwei
 
 Description: 
 
@@ -15,7 +15,7 @@ Description:
 
 ## Display:
 
-Author: Ed
+Author: Lijunwei
 
 Description: 
 
