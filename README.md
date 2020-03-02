@@ -70,10 +70,11 @@ Description:
 
 ## Processor:
 
-Author: Steven
+Author: Dingjun Bian
 
-Description: 
+Description:
 
--- Input
+-- Input: Recieve the real time data of multiple sensors and process the data.Send the processed data to database for
+storage. Check whether it is within normal range, send signal to alert if we detect something abnormal.
 
--- Output
+-- Output:transfer the processed data to database, send data to  alert
