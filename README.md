@@ -26,13 +26,13 @@ Description:
 
 ## Storage:
 
-Author: Zhenfei Yu
+Author: JP
 
 Description: 
 
--- Input: data handled from processor
+-- Input
 
--- Output: database as input of AI training
+-- Output
 
 ## Vitals:
 
@@ -66,10 +66,10 @@ Description:
 
 ## Processor:
 
-Author: Steven
+Author: Dingjun Bian
 
-Description: 
+Description: recieve the real time data of multiple sensors and evalute the data
 
--- Input
+-- Input:data of pulse blood pressure,blood oxygen 
 
--- Output
+-- Output:transfer the processed data to database 
