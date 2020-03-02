@@ -78,3 +78,14 @@ Description:
 storage. Check whether it is within normal range, send signal to alert if we detect something abnormal.
 
 -- Output:transfer the processed data to database, send data to  alert
+
+## Alert:
+
+Author: Shiyang Hu
+
+Description: In case of the alert failed which could cause vital result, the alert module should include several alert functions. These functions should be the same which are all received same data from processor separately and then judge these data wether beyond the threshold once the data beyond the threshold the function will generate an alert signal. Once one of these functions have generated signal, the module will output this signal immediately.
+
+-- Input: The data from processor.
+
+
+-- Output: Alert signal or nothing.
