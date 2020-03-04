@@ -12,17 +12,18 @@ Description:
   In our proect, we do not use real sensor to test our project. Therefore, simulation file will replace actual sensor as input. 
 
 -- Input
-    sensor_pulse.cvs
-    sensor_blood_pressure.cvs
-    sensor_blood_oxygen.cvs
+    a.  sensor_pulse.cvs
+    b.  sensor_blood_pressure.cvs
+    c.  sensor_blood_oxygen.cvs
 
 -- Output
+  the simulated sensor data with time changing. 
     
 ## Display:
 
 Author:Jingyi Li
 
-Description: This parts will collect all the information from several parts and show in the screen. When an Alert happened, it will show in the screen with a special notice.
+Description: Those parts will collect all the information from several sensor parts and show on the screen. When an Alert happened, it will show on the screen with a special notice.
 
 -- Input: setting, data inputs (updated sec by sec)
 
