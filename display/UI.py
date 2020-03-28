@@ -115,20 +115,13 @@ class Ui_MainWindow(object):
 
 
 
-def show_real_sensor_data():
+def show_real_sensor_data(data):
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
 
-    # initial data
-    data=['0','0','0']
-
-    # connect to  sensors 
-    t1 =  thread_with_trace(target=sensor_get, args=(data,0.5))
-    t1.start()
-    
     def update_label():
       # getting data every 0.5s
       Blood_pressure = data[0]
@@ -144,13 +137,16 @@ def show_real_sensor_data():
     timer.start(500)  # 0.5 s
 
     if not app.exec_():
-        t1.kill() 
-        t1.join() 
-        print ('killed t1')
-    sys.exit(0)
+        return 0
 
 if __name__ == "__main__":
-    show_real_sensor_data()
-    
 
-
+    data=['0','0','0']
+    # connect to  sensors 
+    t1 =  thread_with_trace(target=sensor_get, args=(data,0.01))
+    t1.start()
+    show_real_sensor_data(data)
+    t1.kill() 
+    t1.join() 
+    print ('killed t1')
+    sys.exit(0)
