@@ -138,3 +138,34 @@ def show_real_sensor_data(data):
 
     if not app.exec_():
         return 0
+      
+      
+      
+if __name__ == "__main__":
+
+    data=['0','0','0']
+    # connect to  sensors 
+    t1 =  thread_with_trace(target=sensor_get, args=(data,0.01))
+    t1.start()
+
+### data is change everry 0.01s  ----- data = [Blood_pressure, Blood_Oxygen, Pulse ] string type 
+
+### for example ['101', '93', '82']
+## =====  put all process at here 
+
+
+# show Data in UI 
+show_real_sensor_data(data)
+
+# do alarm processing 
+
+
+
+
+
+
+### data finished  here 
+    t1.kill() 
+    t1.join() 
+    print ('killed t1')
+    sys.exit(0)
